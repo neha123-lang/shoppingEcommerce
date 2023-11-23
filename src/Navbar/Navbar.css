@@ -1,0 +1,41 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    position:fixed;
+    /* z-index:-1; */
+    width:100%;
+    margin-top:0px;
+    margin-bottom: 2%;
+  
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-headings ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none ;
+    
+}
+li{
+    margin-left:120px;
+}
+
+.nav-icons ul
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none ;
+}
+.cart-listing{
+    background:white;
+    position:absolute;
+    width:100%;
+    height:100%;
+    z-index:1;
+}
+
