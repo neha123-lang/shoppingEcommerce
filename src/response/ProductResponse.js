@@ -1,8 +1,8 @@
 
-
 export const ProductResponse = [
     {
         productHeading:"Lovely Deep Pink Embroidered Rayon Navaratri Wear Lehenga Choli",
+        productGrpName :"Lehnga",
         productDesc :[
             {
                desc: 'Precise beauty can come out from your dressing trend with this Deep pink color lehenga made with viscose rayon material completed with thread embroidered with all-over mirror work.'
@@ -18,19 +18,25 @@ export const ProductResponse = [
     rate :590000,
     img:[
         {
-            img:'./images/img4.jpg'
+            img:"img4.jpg"
+        }
+        ,
+        {
+            img:'img5.jpg'
         },
         {
-            img:'./images/img4.jpg'
+            img:'img6.jpg'
         },
         {
-            img:'./images/img4.jpg'
+            img:'img3.jpg'
         }
     ]
 
     },
     {
         productHeading:"Enchanting Blue Embroidered Georgette Party Wear Salwar Kameez",
+        productGrpName :"Lehnga",
+
         productDesc :[
             {
                desc: 'Precise beauty can come out from your dressing trend with this Deep pink color lehenga made with viscose rayon material completed with thread embroidered with all-over mirror work.'
@@ -46,19 +52,21 @@ export const ProductResponse = [
     rate :590000,
     img:[
         {
-            img:'./images/img5.jpg'
+            img:'img5.jpg'
         },
         {
-            img:'./images/img5.jpg'
+            img:'img4.jpg'
         },
         {
-            img:'./images/img5.jpg'
+            img:'img6.jpg'
         }
     ]
 
     },
     {
         productHeading:"Pretty Black Embroidered Rayon Navaratri Wear Lehenga Choli",
+        productGrpName :"Lehnga",
+
         productDesc :[
             {
                desc: 'Precise beauty can come out from your dressing trend with this Deep pink color lehenga made with viscose rayon material completed with thread embroidered with all-over mirror work.'
@@ -74,19 +82,21 @@ export const ProductResponse = [
     rate :590000,
     img:[
         {
-            img:'./images/img6.jpg'
+            img:'img6.jpg'
         },
         {
-            img:'./images/img6.jpg'
+            img:'img5.jpg'
         },
         {
-            img:'./images/img6.jpg'
+            img:'img4.jpg'
         }
     ]
 
     },
     {
         productHeading:"Lovely Pearl White Embroidered Rayon Navaratri Wear Lehenga Choli",
+        productGrpName :"Lehnga",
+
         productDesc :[
             {
                desc: 'Precise beauty can come out from your dressing trend with this Deep pink color lehenga made with viscose rayon material completed with thread embroidered with all-over mirror work.'
@@ -102,13 +112,13 @@ export const ProductResponse = [
     rate :590000,
     img:[
         {
-            img:'./images/img3.jpg'
+            img:'img3.jpg'
         },
         {
-            img:'./images/img3.jpg'
+            img:'img4.jpg'
         },
         {
-            img:'./images/img3.jpg'
+            img:'img5.jpg'
         }
     ]
 
