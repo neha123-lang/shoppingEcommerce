@@ -24,6 +24,7 @@ const Cart = ({cartITems, onShow}) => {
       </div>
       </div>
      
+     
     </div>
   )
 }

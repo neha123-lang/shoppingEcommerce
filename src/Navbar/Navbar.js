@@ -13,6 +13,7 @@ const [showcart ,setShowCart] = useState(false);
         setShowCart(true);
         setClassName('cart active')
     }
+    
   return (
     <div>
     <nav>

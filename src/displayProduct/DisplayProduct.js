@@ -41,6 +41,7 @@ export const DisplayProduct = (params) => {
           )
         })}
 
+
       </div>
     </div>
   )
