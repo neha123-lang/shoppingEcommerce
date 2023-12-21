@@ -1,0 +1,36 @@
+   .display-product{
+ 
+   margin-top: 6%;
+
+height:100%;
+width:80%;
+/* background-color: black; */
+justify-content: center;
+margin-left: 10%;
+
+   }  
+
+   .image-path{
+   
+   color:rgb(92, 92, 92);
+   border-bottom: 0.5px solid rgb(213, 210, 210);
+   }
+.images-details{
+   position: relative;
+   max-width:28%;
+   overflow: hidden;
+}
+   .images-details img{
+     position: relative;
+     max-width:100%;
+      height:65vh;
+      background-color: aquamarine;
+      display:flex;
+      flex-direction: row;
+      transition: 0.5s all ease-in-out;
+
+   }
+   img:hover{
+      transform: scale(1.5);
+   }
+   

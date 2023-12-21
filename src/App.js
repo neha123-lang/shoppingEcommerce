@@ -7,16 +7,17 @@ import { DisplayProduct } from './displayProduct/DisplayProduct';
 function App() {
   const productArray = ['a' , 'b', 'c' , 'd']
 const cartITems = [];
+
   return (
     <div className="App">
       <Navbar cartITems = {cartITems}/>
-      <Product productArray = {productArray} cartITems = {cartITems} />
-      <Router>
+      {/* <Product productArray = {productArray} cartITems = {cartITems} /> */}
+      
 <Routes>
   <Route path="/" element={ <Product  cartITems = {cartITems} />} />
-  <Route  path="/product/:id" element={<DisplayProduct />} />
+  <Route  path="/product/:id" element={<DisplayProduct  />} />
 </Routes>
-      </Router>
+      
     </div>
   );
 }
